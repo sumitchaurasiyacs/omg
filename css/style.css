@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    top: 0px;
+   
+    
+    
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#logo{
+    padding: 3px 10px;
+}
+#logo img{
+    width: 120px;
+    height: 100px;
+    margin: 2px 2px;
+    border-radius: 50%;
+
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin: 30px 20px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 5px 12px;
+}
+ul li a:hover{
+    color: rgb(76, 70, 70);
+    background-color: wheat;
+    border-radius: 20px;
+    text-decoration: underline;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 200px;
+    height: 400px;
+    
+   
+}
+#home::before{
+    content: "";
+    background: url(../background-cooking-black-wooden-background-top-view-free-space-your-text_187166-5650.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 500px;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.8;
+}
+.first-h{
+    font-size: 2.5rem;
+    color: rgb(210, 211, 211);
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px;
+}
+.text-center{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family:  Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 254);
+}
+#btn{
+    font-size: 1.2rem;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 25px;
+    text-transform: capitalize;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+#btn:hover{
+    color: white;
+    background-color: gray;
+
+}
+.center{
+    text-align: center;
+}
+#services-page h1{
+    color: rgb(34, 47, 68);
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.srevices{
+    display: flex;
+    width: 90%;
+    margin: 6px auto;
+}
+.box{
+    border: 2px solid red;
+    height: 420px;
+    background-color: rgb(185, 166, 166);
+    margin: 9px;
+    padding: 4px ;
+    border-radius: 8px;
+}
+.srevices img{
+    height: 180px;
+    width: 180px;
+    display: block;
+    margin: auto;
+    padding: 8px 2px;
+    border-radius: 20%;
+
+}
+.s-heading{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 6px;
+}
+.srevices p{
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(28, 42, 68);
+}
+#logo-img{
+    padding: 20px ;
+    
+}
+#logo-img::before{
+    content: "";
+    background: url('../food-366875_640.jpg') no-repeat center center/cover;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 200px;
+    z-index: -1;
+    opacity: 0.7;
+}
+.logo-box{
+    display: flex;
+    width: 40%;
+    margin: 8px auto;
+
+    
+
+}
+.logo-box img{
+    width: 100px;
+    height: 100px;
+    margin: 2px auto;
+
+}
+
+
